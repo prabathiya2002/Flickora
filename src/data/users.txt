@@ -1,0 +1,2 @@
+U1|Admin User|admin@flickora.com|admin|admin123|Admin
+U2|Customer One|customer1@flickora.com|customer1|pass123|Customer
