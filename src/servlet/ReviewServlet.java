@@ -84,4 +84,4 @@ public class ReviewServlet extends HttpServlet {
     }
 }
 
-//ReservationService
+//Ratings add
