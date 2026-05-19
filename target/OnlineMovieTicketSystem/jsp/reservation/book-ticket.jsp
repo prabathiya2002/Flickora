@@ -71,4 +71,4 @@
         </div>
     </div>
 </div>
-<%@ include file="../common/footer.jspf" %>    //kasunakalanka//
+<%@ include file="../common/footer.jspf" %>    //kasun//
