@@ -1,3 +1,2 @@
 SE2|S1|A2|Booked|VIP|25.00
-SE3|S2|B1|Available|Regular|15.00
 SE4|S2|A7|Available|Regular|15.00
