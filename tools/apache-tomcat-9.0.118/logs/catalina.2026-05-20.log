@@ -1,0 +1,75 @@
+20-May-2026 01:00:23.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.118
+20-May-2026 01:00:23.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 19:30:30 UTC
+20-May-2026 01:00:23.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.118.0
+20-May-2026 01:00:23.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-May-2026 01:00:23.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-May-2026 01:00:23.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-May-2026 01:00:23.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+20-May-2026 01:00:23.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.6+8-LTS-188
+20-May-2026 01:00:23.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-May-2026 01:00:23.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Research\Flickora\tools\apache-tomcat-9.0.118
+20-May-2026 01:00:23.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Research\Flickora\tools\apache-tomcat-9.0.118
+20-May-2026 01:00:23.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-May-2026 01:00:23.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+20-May-2026 01:00:23.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+20-May-2026 01:00:23.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-May-2026 01:00:23.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-May-2026 01:00:23.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-May-2026 01:00:23.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-May-2026 01:00:23.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Research\Flickora\tools\apache-tomcat-9.0.118\conf\logging.properties
+20-May-2026 01:00:23.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-May-2026 01:00:23.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-May-2026 01:00:23.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-May-2026 01:00:23.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+20-May-2026 01:00:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-May-2026 01:00:23.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Research\Flickora\tools\apache-tomcat-9.0.118
+20-May-2026 01:00:23.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Research\Flickora\tools\apache-tomcat-9.0.118
+20-May-2026 01:00:23.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Research\Flickora\tools\apache-tomcat-9.0.118\temp
+20-May-2026 01:00:23.871 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.7] using APR version [1.7.6].
+20-May-2026 01:00:23.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-May-2026 01:00:23.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-May-2026 01:00:23.888 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.19 27 Jan 2026]
+20-May-2026 01:00:24.769 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-May-2026 01:00:24.810 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:984)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:687)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:251)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1500)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1513)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:966)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+20-May-2026 01:00:24.814 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1914] milliseconds
+20-May-2026 01:00:24.931 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-May-2026 01:00:24.932 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.118]
+20-May-2026 01:00:24.971 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\OnlineMovieTicketSystem.war]
+20-May-2026 01:00:25.934 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\OnlineMovieTicketSystem.war] has finished in [961] ms
+20-May-2026 01:00:25.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\docs]
+20-May-2026 01:00:26.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\docs] has finished in [91] ms
+20-May-2026 01:00:26.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\examples]
+20-May-2026 01:00:27.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\examples] has finished in [1,489] ms
+20-May-2026 01:00:27.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\host-manager]
+20-May-2026 01:00:27.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\host-manager] has finished in [89] ms
+20-May-2026 01:00:27.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\manager]
+20-May-2026 01:00:27.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\manager] has finished in [131] ms
+20-May-2026 01:00:27.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\ROOT]
+20-May-2026 01:00:27.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Research\Flickora\tools\apache-tomcat-9.0.118\webapps\ROOT] has finished in [78] ms
+20-May-2026 01:00:27.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3016] milliseconds
