@@ -1,0 +1,2 @@
+S1|M1|Skyline Dreams|Central Cinema|2026-05-20|18:30|Hall 1
+S2|M2|Midnight Chase|Grand Theater|2026-05-21|20:00|Hall 2
