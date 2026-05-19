@@ -1,5 +1,5 @@
 package model;
-
+//showtime 
 public class Showtime {
     private String id;
     private String movieId;
