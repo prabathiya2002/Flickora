@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 import model.Seat;
 import service.SeatService;
 import service.ShowtimeService;
@@ -45,7 +46,7 @@ public class SeatServlet extends HttpServlet {
         request.setAttribute("message", request.getParameter("message"));
         forward(request, response, "/jsp/seat/list-seat.jsp");
     }
-
+//add the office
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = value(request, "action", "save");
