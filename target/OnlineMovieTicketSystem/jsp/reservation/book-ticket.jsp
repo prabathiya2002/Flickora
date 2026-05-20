@@ -60,7 +60,7 @@
                                 <option value="<%= seat.getId() %>"><%= seat.getSeatNumber() %> (<%= seat.getType() %>)</option>
                                 <% } %>
                             </select>
-                        </div>
+                       
                     </div>
                     <div class="d-flex gap-2 mt-4">
                         <button type="submit" class="btn btn-warning fw-bold">Confirm Booking</button>
@@ -71,4 +71,4 @@
         </div>
     </div>
 </div>
-<%@ include file="../common/footer.jspf" %>
+<%@ include file="../common/footer.jspf" %>    //kasun//
